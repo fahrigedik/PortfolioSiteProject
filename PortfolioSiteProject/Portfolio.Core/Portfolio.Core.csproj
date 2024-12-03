@@ -10,4 +10,8 @@
     <Folder Include="Interfaces\Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Portfolio.Entity\Portfolio.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

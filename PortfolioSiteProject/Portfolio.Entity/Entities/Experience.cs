@@ -2,7 +2,6 @@
 using Portfolio.Core.Base;
 
 namespace Portfolio.Entity.Entities;
-
 public class Experience : BaseEntity
 {
     public string JobTitle { get; set; }
@@ -11,4 +10,3 @@ public class Experience : BaseEntity
     public DateTime StartDate { get; set; }
     public DateTime EndDate { get; set; }
 }
-
