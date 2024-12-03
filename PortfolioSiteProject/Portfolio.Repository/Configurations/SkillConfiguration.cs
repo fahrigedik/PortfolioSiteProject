@@ -9,7 +9,7 @@ public class SkillConfiguration : IEntityTypeConfiguration<Skill>
 {
     public void Configure(EntityTypeBuilder<Skill> builder)
     {
-        throw new NotImplementedException();
+        builder.HasKey(x => x.Id);
     }
 }
 

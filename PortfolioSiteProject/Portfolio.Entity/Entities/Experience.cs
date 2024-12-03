@@ -1,7 +1,7 @@
 ﻿
 using Portfolio.Core.Base;
 
-namespace Portfolio.Entities.Entities;
+namespace Portfolio.Entity.Entities;
 
 public class Experience : BaseEntity
 {
