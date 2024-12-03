@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|solutionrelative:portfolio.service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|solutionrelative:portfolio.repository\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|solutionrelative:portfolio.entity\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\portfolio.entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|solutionrelative:portfolio.entity\\portfolio.entity.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Class1.cs",
-              "RelativeDocumentMoniker": "Portfolio.Service\\Class1.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Class1.cs",
-              "RelativeToolTip": "Portfolio.Service\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "Portfolio.Core\\Base\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:12:32.737Z",
+              "WhenOpened": "2024-12-03T10:41:57.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\Class1.cs",
-              "RelativeDocumentMoniker": "Portfolio.Repository\\Class1.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\Class1.cs",
-              "RelativeToolTip": "Portfolio.Repository\\Class1.cs",
+              "Title": "Portfolio.Entity",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Portfolio.Entity.csproj",
+              "RelativeDocumentMoniker": "Portfolio.Entity\\Portfolio.Entity.csproj",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Portfolio.Entity.csproj",
+              "RelativeToolTip": "Portfolio.Entity\\Portfolio.Entity.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:11:58.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Class1.cs",
-              "RelativeDocumentMoniker": "Portfolio.Entity\\Class1.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Class1.cs",
-              "RelativeToolTip": "Portfolio.Entity\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:11:28.962Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Class1.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Class1.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Class1.cs",
-              "RelativeToolTip": "Portfolio.Core\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T10:11:10.246Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-03T10:41:15.943Z",
               "EditorCaption": ""
             }
           ]
