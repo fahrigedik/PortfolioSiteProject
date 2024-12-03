@@ -1,8 +1,7 @@
-﻿
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Portfolio.Core.Interfaces.Repositories;
 
-namespace Portfolio.Repository.Generic;
+namespace Portfolio.Repository.Repositories;
 
 public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> where T : class
 {
