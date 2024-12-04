@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
+using Portfolio.Core.DTOs;
 using Portfolio.Entity.Entities;
-using Portfolio.Service.DTOs;
 
 namespace Portfolio.Repository.Mapping;
 

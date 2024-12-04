@@ -1,4 +1,4 @@
-﻿namespace Portfolio.Service.DTOs;
+﻿namespace Portfolio.Core.DTOs;
 
 public class SkillDto
 {

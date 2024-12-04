@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.Reflection;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Portfolio.Core.Interfaces.Services;
@@ -14,6 +14,9 @@ public static class ServiceExtension
         services.AddScoped<ISkillService, SkillService>();
         services.AddScoped<ISocialLinkService, SocialLinkService>();
         services.AddScoped<IUserInfoService, UserInfoService>();
+
+        services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
         return services;
     }
 }
