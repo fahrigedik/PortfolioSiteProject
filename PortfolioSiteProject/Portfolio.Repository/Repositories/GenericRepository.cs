@@ -1,9 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Portfolio.Core.Base;
 using Portfolio.Core.Interfaces.Repositories;
 
 namespace Portfolio.Repository.Repositories;
 
-public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> where T : class
+public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> where T : BaseEntity
 {
     protected AppDbContext Context = context;
 
@@ -17,7 +18,7 @@ public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> 
 
     public async Task<List<T>> GetAllAsync()
     {
-        var entities = await _dbSet.ToListAsync();
+        var entities = await _dbSet.Where(x=>x.IsVisible == true).ToListAsync();
         return entities;
     }
 
