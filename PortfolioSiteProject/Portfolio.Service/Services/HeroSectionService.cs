@@ -1,13 +1,17 @@
-﻿using Portfolio.Core.DTOs;
+﻿using AutoMapper;
+using Portfolio.Core.DTOs;
+using Portfolio.Core.Interfaces.Repositories;
 using Portfolio.Core.Interfaces.Services;
 
 namespace Portfolio.Service.Services;
 
-public class HeroSectionService : IHeroSectionService
+public class HeroSectionService(IHeroSectionRepository heroSectionRepository, IMapper mapper) : IHeroSectionService
 {
-    public Task<List<HeroSectionDto>> GetAllListAsync()
+    public async Task<List<HeroSectionDto>> GetAllListAsync()
     {
-        throw new NotImplementedException();
+        var heroSections = await heroSectionRepository.GetAllAsync();
+        var heroSectionDtos = mapper.Map<List<HeroSectionDto>>(heroSections);
+        return heroSectionDtos;
     }
 }
 

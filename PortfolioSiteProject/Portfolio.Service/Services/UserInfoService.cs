@@ -1,11 +1,15 @@
-﻿using Portfolio.Core.DTOs;
+﻿using AutoMapper;
+using Portfolio.Core.DTOs;
+using Portfolio.Core.Interfaces.Repositories;
 using Portfolio.Core.Interfaces.Services;
 
 namespace Portfolio.Service.Services;
-public class UserInfoService : IUserInfoService
+public class UserInfoService(IUserInfoRepository userInfoRepository, IMapper mapper) : IUserInfoService
 {
-    public Task<List<UserInfoDto>> GetAllListAsync()
+    public async Task<List<UserInfoDto>> GetAllListAsync()
     {
-        throw new NotImplementedException();
+        var userInfos = await userInfoRepository.GetAllAsync();
+        var userInfoDtos = mapper.Map<List<UserInfoDto>>(userInfos);
+        return userInfoDtos;
     }
 }
