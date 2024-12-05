@@ -6,6 +6,7 @@ using Portfolio.Core.Interfaces.Repositories;
 using Portfolio.Core.Interfaces.UnitOfWork;
 using Portfolio.Repository.Repositories;
 using Portfolio.Repository.UnitOfWorks;
+using System.Reflection;
 
 namespace Portfolio.Repository.Extensions;
 
@@ -14,14 +15,15 @@ public static class RepositoryExtensions
     public static IServiceCollection AddRepositories(this IServiceCollection services, IConfiguration configuration)
     {
 
-        services.AddDbContext<AppDbContext>((serviceProvider, options) =>
+        services.AddDbContext<AppDbContext>(options =>
         {
-            var connectionStrings = serviceProvider.GetRequiredService<IOptions<ConnectionStringOption>>().Value;
-            options.UseSqlServer(connectionStrings.SqlCon, sqlServerOptionsAction =>
+            var connectionStrings = configuration.GetSection(ConnectionStringOption.Key).Get<ConnectionStringOption>();
+            options.UseSqlServer(connectionStrings!.SqlCon, sqlServerOptionsAction =>
             {
                 sqlServerOptionsAction.MigrationsAssembly(typeof(RepositoryAssembly).Assembly.FullName);
             });
         });
+
 
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
         services.AddScoped<IExperienceRepository, ExperienceRepository>();
