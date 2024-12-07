@@ -1,8 +1,14 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = "_MainLayout";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@await Component.InvokeAsync("HeroSection")
+<div class="container white-divider" style=""></div>
+@await Component.InvokeAsync("UserInfo")
+<div class="container white-divider" style=""></div>
+@await Component.InvokeAsync("SkillSection")
+<div class="container white-divider" style=""></div>
+@await Component.InvokeAsync("ExperienceSection")
+<div class="container white-divider" style=""></div>
+@await Component.InvokeAsync("ProjectSection")  
+<div class="container white-divider" style=""></div>

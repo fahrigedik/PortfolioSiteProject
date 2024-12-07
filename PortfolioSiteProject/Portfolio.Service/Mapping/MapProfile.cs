@@ -13,6 +13,7 @@ public class MapProfile : Profile
         CreateMap<Experience, ExperienceDto>();
         CreateMap<SocialLink, SocialLinkDto>();
         CreateMap<UserInfo, UserInfoDto>();
+        CreateMap<Project, ProjectDto>();
     }
 }
 

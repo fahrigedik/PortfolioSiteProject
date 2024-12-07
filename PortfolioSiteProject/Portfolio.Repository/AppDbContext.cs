@@ -12,6 +12,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<Skill> Skills { get; set; } = default!;
     public DbSet<SocialLink> SocialLinks { get; set; } = default!;
     public DbSet<HeroSection> HeroSections { get; set; } = default!;
+    public DbSet<Project> Projects { get; set; } = default!;
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);

@@ -31,6 +31,7 @@ public static class RepositoryExtensions
         services.AddScoped<ISkillRepository, SkillRepository>();
         services.AddScoped<ISocialLinkRepository, SocialLinkRepository>();
         services.AddScoped<IUserInfoRepository, UserInfoRepository>();
+        services.AddScoped<IProjectRepository, ProjectRepository>();
         services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         return services;

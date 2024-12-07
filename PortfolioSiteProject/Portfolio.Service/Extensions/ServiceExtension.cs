@@ -14,6 +14,7 @@ public static class ServiceExtension
         services.AddScoped<ISkillService, SkillService>();
         services.AddScoped<ISocialLinkService, SocialLinkService>();
         services.AddScoped<IUserInfoService, UserInfoService>();
+        services.AddScoped<IProjectService, ProjectService>();
 
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
