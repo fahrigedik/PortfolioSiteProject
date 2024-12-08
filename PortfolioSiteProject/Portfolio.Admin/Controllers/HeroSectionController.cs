@@ -26,10 +26,23 @@ namespace Portfolio.Admin.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpDelete]
         public async Task<IActionResult> Delete(Guid id)
         {
             await heroSectionService.DeleteAsync(id);
+            return RedirectToAction("Index");
+        }
+
+
+        [HttpGet]
+        public async Task<IActionResult> Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(HeroSection requestModel)
+        {
+            await heroSectionService.CreateAsync(requestModel);
             return RedirectToAction("Index");
         }
     }

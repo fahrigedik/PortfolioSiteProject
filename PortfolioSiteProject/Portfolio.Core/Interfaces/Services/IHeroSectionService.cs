@@ -10,5 +10,6 @@ public interface IHeroSectionService
     Task<HeroSection> GetByIdAsync(Guid id);
     Task UpdateAsync(HeroSection requestModel);
     Task DeleteAsync(Guid id);
+    Task CreateAsync(HeroSection requestModel);
 }
 

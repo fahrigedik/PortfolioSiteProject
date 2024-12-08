@@ -9,7 +9,7 @@ using Portfolio.Repository.UnitOfWorks;
 
 namespace Portfolio.Service.Services;
 
-public class HeroSectionService(IHeroSectionRepository heroSectionRepository, IUnitOfWork unitOfWork , IMapper mapper) : IHeroSectionService
+public class HeroSectionService(IHeroSectionRepository heroSectionRepository, IUnitOfWork unitOfWork, IMapper mapper) : IHeroSectionService
 {
     public async Task<List<HeroSectionDto>> GetAllVisibleAsync()
     {
@@ -32,7 +32,7 @@ public class HeroSectionService(IHeroSectionRepository heroSectionRepository, IU
 
     public async Task UpdateAsync(HeroSection requestModel)
     {
-        heroSectionRepository.Update(requestModel); 
+        heroSectionRepository.Update(requestModel);
         unitOfWork.SaveChanges();
     }
 
@@ -40,6 +40,12 @@ public class HeroSectionService(IHeroSectionRepository heroSectionRepository, IU
     {
         var heroSection = await heroSectionRepository.GetByIdAsync(id);
         heroSectionRepository.Delete(heroSection);
+        unitOfWork.SaveChanges();
+    }
+
+    public async Task CreateAsync(HeroSection requestModel)
+    {
+        await heroSectionRepository.AddAsync(requestModel);
         unitOfWork.SaveChanges();
     }
 }
