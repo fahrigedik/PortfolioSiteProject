@@ -1,12 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
 using Portfolio.Core.Interfaces.Repositories;
 using Portfolio.Core.Interfaces.UnitOfWork;
+using Portfolio.Entity.Identity;
 using Portfolio.Repository.Repositories;
-using Portfolio.Repository.UnitOfWorks;
-using System.Reflection;
+using Portfolio.Repository.UnitOfWorks; 
 
 namespace Portfolio.Repository.Extensions;
 
@@ -23,7 +22,6 @@ public static class RepositoryExtensions
                 sqlServerOptionsAction.MigrationsAssembly(typeof(RepositoryAssembly).Assembly.FullName);
             });
         });
-
 
         services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
         services.AddScoped<IExperienceRepository, ExperienceRepository>();

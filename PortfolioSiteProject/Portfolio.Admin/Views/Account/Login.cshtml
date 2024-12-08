@@ -1,0 +1,28 @@
+﻿@model Portfolio.Admin.ViewModels.LoginViewModel
+
+@{
+    Layout = "_Layout";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giriş Yap</title>
+</head>
+<body>
+    <div>
+        <h2>Giriş Yap</h2>
+        <form asp-controller="Account" asp-action="Login" method="post">
+            <div>
+                <label for="Email">E-posta:</label>
+                <input type="email" id="Email" name="email" required />
+            </div>
+            <div>
+                <label for="Password">Şifre:</label>
+                <input type="password" id="Password" name="password" required />
+            </div>
+            <button type="submit">Giriş Yap</button>
+        </form>
+    </div>
+</body>
+</html>

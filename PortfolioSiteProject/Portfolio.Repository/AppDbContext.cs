@@ -1,12 +1,13 @@
 ﻿
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Portfolio.Entity.Entities;
+using Portfolio.Entity.Identity;
 
 namespace Portfolio.Repository;
 
-public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
+public class AppDbContext(DbContextOptions<AppDbContext> options) : IdentityDbContext<AppUser, AppRole, Guid>(options)
 {
-
     public DbSet<UserInfo> UserInfos { get; set; } = default!;
     public DbSet<Experience> Experiences { get; set; } = default!;
     public DbSet<Skill> Skills { get; set; } = default!;

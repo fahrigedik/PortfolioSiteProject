@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Portfolio.Core.Interfaces.Services;
 using Portfolio.Entity.Entities;
 
 namespace Portfolio.Admin.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class HeroSectionController(IHeroSectionService heroSectionService) : Controller
     {
         public async Task<IActionResult> Index()

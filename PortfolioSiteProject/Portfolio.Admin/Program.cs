@@ -1,3 +1,7 @@
+using Microsoft.AspNetCore.Identity;
+using Portfolio.Admin.Extensions;
+using Portfolio.Entity.Identity;
+using Portfolio.Repository;
 using Portfolio.Repository.Extensions;
 using Portfolio.Service.Extensions;
 
@@ -5,8 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddRepositories(builder.Configuration);
 builder.Services.AddServices(builder.Configuration);
+builder.Services.AddRepositories(builder.Configuration);
+builder.Services.AddIdentityExtension();
+
 
 var app = builder.Build();
 
@@ -23,6 +29,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

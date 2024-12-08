@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Portfolio.Core.Interfaces.Services;
 using Portfolio.Entity.Entities;
 using Portfolio.Service.Services;
 
 namespace Portfolio.Admin.Controllers
 {
+
+    [Authorize(Roles = "Admin")]
     public class ExperienceController(IExperienceService experienceService) : Controller
     {
         public async Task<IActionResult> Index()
