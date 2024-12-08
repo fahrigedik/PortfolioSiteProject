@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\herosection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\herosection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.repository\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|solutionrelative:portfolio.repository\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.service\\services\\herosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|solutionrelative:portfolio.service\\services\\herosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\controllers\\herosectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,96 +19,28 @@
       "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\services\\iherosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.service\\services\\herosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|solutionrelative:portfolio.service\\services\\herosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\herosection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\herosection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\repositories\\iherosectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\repositories\\iherosectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.service\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|solutionrelative:portfolio.service\\services\\experienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\repositories\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\repositories\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|solutionrelative:portfolio.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\entities\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|solutionrelative:portfolio.entity\\entities\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\services\\iexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\services\\iexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\services\\iuserinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\services\\iuserinfoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\services\\isociallinkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\services\\isociallinkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\services\\iskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\services\\iskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\services\\iprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\herosection\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\herosection\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|solutionrelative:portfolio.entity\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|solutionrelative:portfolio.entity\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\entities\\herosection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|solutionrelative:portfolio.entity\\entities\\herosection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\dtos\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\dtos\\userinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\dtos\\sociallinkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\dtos\\sociallinkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\dtos\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\dtos\\skilldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\dtos\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\dtos\\herosectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\dtos\\herosectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\dtos\\experiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\dtos\\experiencedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\repositories\\iherosectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\repositories\\iherosectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|solutionrelative:portfolio.entity\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -114,8 +50,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1120,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IHeroSectionService.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
+              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T08:52:22.643Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Portfolio.Repository\\UnitOfWorks\\UnitOfWork.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\UnitOfWorks\\UnitOfWork.cs",
+              "RelativeToolTip": "Portfolio.Repository\\UnitOfWorks\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:40:41.117Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -126,332 +89,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HeroSectionController.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Controllers\\HeroSectionController.cs",
-              "RelativeDocumentMoniker": "Portfolio.Admin\\Controllers\\HeroSectionController.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Controllers\\HeroSectionController.cs",
-              "RelativeToolTip": "Portfolio.Admin\\Controllers\\HeroSectionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T09:00:01.143Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IHeroSectionRepository.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:59:21.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HeroSectionService.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Services\\HeroSectionService.cs",
-              "RelativeDocumentMoniker": "Portfolio.Service\\Services\\HeroSectionService.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Services\\HeroSectionService.cs",
-              "RelativeToolTip": "Portfolio.Service\\Services\\HeroSectionService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:59:02.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExperienceService.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Services\\ExperienceService.cs",
-              "RelativeDocumentMoniker": "Portfolio.Service\\Services\\ExperienceService.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Services\\ExperienceService.cs",
-              "RelativeToolTip": "Portfolio.Service\\Services\\ExperienceService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:53:23.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IProjectRepository.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IProjectRepository.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Repositories\\IProjectRepository.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IProjectRepository.cs",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Repositories\\IProjectRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:53:06.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Portfolio.Repository\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Portfolio.Repository\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwBgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:50:05.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
-              "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
-              "RelativeToolTip": "Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T08:32:49.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IHeroSectionService.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:52:22.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUserInfoService.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IUserInfoService.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Services\\IUserInfoService.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IUserInfoService.cs",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Services\\IUserInfoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:52:56.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:49:21.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IExperienceService.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IExperienceService.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Services\\IExperienceService.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IExperienceService.cs",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Services\\IExperienceService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:52:00.556Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Experience.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\Experience.cs",
-              "RelativeDocumentMoniker": "Portfolio.Entity\\Entities\\Experience.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\Experience.cs",
-              "RelativeToolTip": "Portfolio.Entity\\Entities\\Experience.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:51:22.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ISocialLinkService.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\ISocialLinkService.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Services\\ISocialLinkService.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\ISocialLinkService.cs",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Services\\ISocialLinkService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:52:50.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ISkillService.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\ISkillService.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Services\\ISkillService.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\ISkillService.cs*",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Services\\ISkillService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:52:40.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IProjectService.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IProjectService.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Services\\IProjectService.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IProjectService.cs*",
-              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Services\\IProjectService.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:51:53.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Portfolio.Entity\\Base\\BaseEntity.cs",
               "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Base\\BaseEntity.cs",
               "RelativeToolTip": "Portfolio.Entity\\Base\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:51:25.785Z",
+              "WhenOpened": "2024-12-08T09:30:02.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Project.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\Project.cs",
-              "RelativeDocumentMoniker": "Portfolio.Entity\\Entities\\Project.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\Project.cs",
-              "RelativeToolTip": "Portfolio.Entity\\Entities\\Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:51:24.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "SocialLinkDto.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\SocialLinkDto.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\DTOs\\SocialLinkDto.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\SocialLinkDto.cs",
-              "RelativeToolTip": "Portfolio.Core\\DTOs\\SocialLinkDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:34:55.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserInfoDto.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\UserInfoDto.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\DTOs\\UserInfoDto.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\UserInfoDto.cs",
-              "RelativeToolTip": "Portfolio.Core\\DTOs\\UserInfoDto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:34:50.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Skill.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\Skill.cs",
-              "RelativeDocumentMoniker": "Portfolio.Entity\\Entities\\Skill.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\Skill.cs",
-              "RelativeToolTip": "Portfolio.Entity\\Entities\\Skill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:34:47.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ExperienceDto.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\ExperienceDto.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\DTOs\\ExperienceDto.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\ExperienceDto.cs*",
-              "RelativeToolTip": "Portfolio.Core\\DTOs\\ExperienceDto.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:35:13.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "HeroSectionDto.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\HeroSectionDto.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\DTOs\\HeroSectionDto.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\HeroSectionDto.cs",
-              "RelativeToolTip": "Portfolio.Core\\DTOs\\HeroSectionDto.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:34:42.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SkillDto.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\SkillDto.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\DTOs\\SkillDto.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\SkillDto.cs",
-              "RelativeToolTip": "Portfolio.Core\\DTOs\\SkillDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:34:58.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProjectDto.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\ProjectDto.cs",
-              "RelativeDocumentMoniker": "Portfolio.Core\\DTOs\\ProjectDto.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\DTOs\\ProjectDto.cs",
-              "RelativeToolTip": "Portfolio.Core\\DTOs\\ProjectDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T08:35:02.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_MainLayout.cshtml",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\Shared\\_MainLayout.cshtml",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeToolTip": "Portfolio.Admin\\Views\\Shared\\_MainLayout.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAC4AAAAbAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\HeroSection\\Update.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\HeroSection\\Update.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\HeroSection\\Update.cshtml",
+              "RelativeToolTip": "Portfolio.Admin\\Views\\HeroSection\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T08:38:14.369Z",
+              "WhenOpened": "2024-12-08T09:28:14.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 1,
+              "Title": "HeroSectionService.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Services\\HeroSectionService.cs",
+              "RelativeDocumentMoniker": "Portfolio.Service\\Services\\HeroSectionService.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Services\\HeroSectionService.cs",
+              "RelativeToolTip": "Portfolio.Service\\Services\\HeroSectionService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:26:33.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeroSectionController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Controllers\\HeroSectionController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Admin\\Controllers\\HeroSectionController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Controllers\\HeroSectionController.cs",
+              "RelativeToolTip": "Portfolio.Admin\\Controllers\\HeroSectionController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:25:27.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
+              "RelativeToolTip": "Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAB9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-08T09:25:20.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\Home\\Index.cshtml",
@@ -459,7 +162,33 @@
               "RelativeToolTip": "Portfolio.Admin\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T08:32:44.766Z",
+              "WhenOpened": "2024-12-08T09:25:17.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HeroSection.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\HeroSection.cs",
+              "RelativeDocumentMoniker": "Portfolio.Entity\\Entities\\HeroSection.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\HeroSection.cs",
+              "RelativeToolTip": "Portfolio.Entity\\Entities\\HeroSection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:24:34.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IHeroSectionRepository.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
+              "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
+              "RelativeToolTip": "Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T09:24:30.628Z",
               "EditorCaption": ""
             }
           ]

@@ -4,14 +4,14 @@ namespace Portfolio.Repository.UnitOfWorks;
 
 public class UnitOfWork(AppDbContext context) : IUnitOfWork
 {
-    public Task<int> SaveChangesAsync()
+    public async Task<int> SaveChangesAsync()
     {
-        throw new NotImplementedException();
+        return await context.SaveChangesAsync();
     }
 
     public void SaveChanges()
     {
-        throw new NotImplementedException();
+        context.SaveChanges();
     }
 }
 

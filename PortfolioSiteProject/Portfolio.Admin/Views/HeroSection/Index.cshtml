@@ -34,7 +34,7 @@
                 <td>@heroSection.IsVisible</td>
                 <td><img src="@heroSection.ImageUrl" style="width:100px;" /></td>
                 <td>@Html.Raw(@heroSection.SvgData)</td>
-                <td><a class="btn btn-warning">Update</a></td>
+                <td><a class="btn btn-warning" asp-action="Update" asp-controller="HeroSection" asp-route-id="@heroSection.Id">Update</a></td>
                 <td><a class="btn btn-danger">Remove</a></td>
             </tr>
         }   

@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿    using Microsoft.AspNetCore.Mvc;
 using Portfolio.Core.Interfaces.Services;
 
 namespace Portfolio.Web.ViewComponents;
@@ -8,7 +8,6 @@ public class UserInfoViewComponent(IUserInfoService userInfoService) : ViewCompo
     public async Task<IViewComponentResult> InvokeAsync()
     {
         var userInfoServices = (await userInfoService.GetAllVisibleAsync()).First();
-
         return View(userInfoServices);
     }
 }
