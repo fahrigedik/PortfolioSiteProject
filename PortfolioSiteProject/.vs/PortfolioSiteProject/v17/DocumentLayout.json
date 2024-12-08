@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.service\\services\\herosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|solutionrelative:portfolio.service\\services\\herosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\services\\iherosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\services\\iherosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\controllers\\herosectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\controllers\\herosectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\herosection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\herosection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\herosection\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\herosection\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|solutionrelative:portfolio.repository\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\herosection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\herosection\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.repository\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F6CBDF8-8937-4DE8-942C-A8C342C49B3E}|Portfolio.Repository\\Portfolio.Repository.csproj|solutionrelative:portfolio.repository\\unitofworks\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.core\\interfaces\\services\\iherosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1E94EB-4150-473C-B3B8-8D62F631820B}|Portfolio.Core\\Portfolio.Core.csproj|solutionrelative:portfolio.core\\interfaces\\services\\iherosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.service\\services\\herosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{336C8782-A636-4533-B880-1AB4C6595CEB}|Portfolio.Service\\Portfolio.Service.csproj|solutionrelative:portfolio.service\\services\\herosectionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E15C040E-B016-4EA7-99C5-B2C74EDB0646}|Portfolio.Entity\\Portfolio.Entity.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.entity\\entities\\herosection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +58,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "IHeroSectionService.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
               "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Services\\IHeroSectionService.cs",
@@ -67,6 +71,19 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Portfolio.Repository\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Portfolio.Repository\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-08T10:21:11.935Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Repository\\UnitOfWorks\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "Portfolio.Repository\\UnitOfWorks\\UnitOfWork.cs",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Portfolio.Entity\\Base\\BaseEntity.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\HeroSection\\Update.cshtml",
               "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\HeroSection\\Update.cshtml",
@@ -115,33 +132,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "HeroSectionService.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Services\\HeroSectionService.cs",
               "RelativeDocumentMoniker": "Portfolio.Service\\Services\\HeroSectionService.cs",
               "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Service\\Services\\HeroSectionService.cs",
               "RelativeToolTip": "Portfolio.Service\\Services\\HeroSectionService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T09:26:33.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HeroSectionController.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Controllers\\HeroSectionController.cs",
               "RelativeDocumentMoniker": "Portfolio.Admin\\Controllers\\HeroSectionController.cs",
               "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Controllers\\HeroSectionController.cs",
               "RelativeToolTip": "Portfolio.Admin\\Controllers\\HeroSectionController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAYwB0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T09:25:27.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
               "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\HeroSection\\Index.cshtml",
@@ -154,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\Home\\Index.cshtml",
@@ -167,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HeroSection.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Entity\\Entities\\HeroSection.cs",
               "RelativeDocumentMoniker": "Portfolio.Entity\\Entities\\HeroSection.cs",
@@ -180,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IHeroSectionRepository.cs",
               "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
               "RelativeDocumentMoniker": "Portfolio.Core\\Interfaces\\Repositories\\IHeroSectionRepository.cs",
