@@ -18,7 +18,7 @@ namespace Portfolio.Web.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var data = await _userInfoService.GetAllListAsync();
+            var data = await _userInfoService.GetAllVisibleAsync();
             return View();
         }
 

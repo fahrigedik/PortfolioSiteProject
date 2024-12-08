@@ -9,8 +9,8 @@ public class HeroSectionViewComponent(IHeroSectionService heroSectionService, IS
 {
     public async Task<IViewComponentResult> InvokeAsync()
     {
-        var heroSection = await heroSectionService.GetAllListAsync();
-        var socialLinks = await socialLinkService.GetAllListAsync();
+        var heroSection = await heroSectionService.GetAllVisibleAsync();
+        var socialLinks = await socialLinkService.GetAllVisibleAsync();
 
         var heroSectionViewModel = new HeroSectionViewModel
         {

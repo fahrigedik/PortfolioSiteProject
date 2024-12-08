@@ -18,6 +18,13 @@ public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> 
 
     public async Task<List<T>> GetAllAsync()
     {
+        var entities = await _dbSet.ToListAsync();
+        return entities;
+    }
+
+    
+    public async Task<List<T>> GetAllVisibleAsync()
+    {
         var entities = await _dbSet.Where(x=>x.IsVisible == true).ToListAsync();
         return entities;
     }

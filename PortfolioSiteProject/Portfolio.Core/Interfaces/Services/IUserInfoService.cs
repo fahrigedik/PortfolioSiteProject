@@ -5,6 +5,7 @@ namespace Portfolio.Core.Interfaces.Services;
 
 public interface IUserInfoService
 {
-    Task<List<UserInfoDto>> GetAllListAsync();
+    Task<List<UserInfoDto>> GetAllVisibleAsync();
+    Task<List<UserInfo>> GetAllAsync();
 }
 

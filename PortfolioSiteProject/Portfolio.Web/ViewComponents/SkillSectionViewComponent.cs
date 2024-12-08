@@ -7,7 +7,7 @@ public class SkillSectionViewComponent(ISkillService skillService) : ViewCompone
 {
     public async Task<IViewComponentResult> InvokeAsync()
     {
-        var skills = await skillService.GetAllListAsync();
+        var skills = await skillService.GetAllVisibleAsync();
         return View(skills);
     }
 }

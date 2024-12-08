@@ -7,7 +7,7 @@ public class ProjectSectionViewComponent(IProjectService projectService) : ViewC
 {
     public async Task<IViewComponentResult> InvokeAsync()
     {
-        var projects = await projectService.GetAllListAsync();
+        var projects = await projectService.GetAllVisibleAsync();
         return View(projects);
     }
 }

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Portfolio.Repository;
 
@@ -11,9 +12,11 @@ using Portfolio.Repository;
 namespace Portfolio.Repository.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241208082350_mig55")]
+    partial class mig55
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,9 +37,6 @@ namespace Portfolio.Repository.Migrations
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
-
-                    b.Property<string>("ImageUrl")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsVisible")
                         .HasColumnType("bit");
@@ -63,7 +63,10 @@ namespace Portfolio.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ImageMimeType")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("InformationDescription")
@@ -103,7 +106,10 @@ namespace Portfolio.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ImageMimeType")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsVisible")
@@ -135,7 +141,10 @@ namespace Portfolio.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ImageMimeType")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsVisible")
@@ -159,7 +168,10 @@ namespace Portfolio.Repository.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ImageMimeType")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsVisible")
@@ -191,7 +203,10 @@ namespace Portfolio.Repository.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ImageUrl")
+                    b.Property<byte[]>("ImageData")
+                        .HasColumnType("varbinary(max)");
+
+                    b.Property<string>("ImageMimeType")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsVisible")

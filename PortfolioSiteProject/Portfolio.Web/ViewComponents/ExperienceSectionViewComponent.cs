@@ -7,7 +7,7 @@ public class ExperienceSectionViewComponent(IExperienceService experienceService
 {
     public async Task<IViewComponentResult> InvokeAsync()
     {
-        var experiences = await experienceService.GetAllListAsync();
+        var experiences = await experienceService.GetAllVisibleAsync();
         return View(experiences);
     }
 }
