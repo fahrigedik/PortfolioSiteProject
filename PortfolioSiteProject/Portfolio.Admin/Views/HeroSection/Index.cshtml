@@ -35,7 +35,7 @@
                 <td><img src="@heroSection.ImageUrl" style="width:100px;" /></td>
                 <td>@Html.Raw(@heroSection.SvgData)</td>
                 <td><a class="btn btn-warning" asp-action="Update" asp-controller="HeroSection" asp-route-id="@heroSection.Id">Update</a></td>
-                <td><a class="btn btn-danger">Remove</a></td>
+                <td><a class="btn btn-danger" asp-action="Delete" asp-controller="HeroSection" asp-route-id="@heroSection.Id">Remove</a></td>
             </tr>
         }   
     </tbody>

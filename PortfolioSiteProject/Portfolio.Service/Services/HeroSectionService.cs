@@ -35,5 +35,12 @@ public class HeroSectionService(IHeroSectionRepository heroSectionRepository, IU
         heroSectionRepository.Update(requestModel); 
         unitOfWork.SaveChanges();
     }
+
+    public async Task DeleteAsync(Guid id)
+    {
+        var heroSection = await heroSectionRepository.GetByIdAsync(id);
+        heroSectionRepository.Delete(heroSection);
+        unitOfWork.SaveChanges();
+    }
 }
 
