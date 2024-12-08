@@ -1,0 +1,55 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_MainLayout";
+}
+@model Portfolio.Entity.Entities.UserInfo
+<div class="container mt-5">
+    <h2>Create New User</h2>
+    <form asp-action="Create" asp-controller="UserInfo" method="post">
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Name</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Number" class="form-label">Phone Number</label>
+            <input asp-for="Number" class="form-control" />
+            <span asp-validation-for="Number" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="UserDescription" class="form-label">Description</label>
+            <textarea asp-for="UserDescription" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="UserDescription" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="ImageUrl" class="form-label">Image URL</label>
+            <input asp-for="ImageUrl" class="form-control" />
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="SvgData" class="form-label">SVG Data</label>
+            <textarea asp-for="SvgData" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="SvgData" class="text-danger"></span>
+        </div>
+
+        <div class="form-check mb-3">
+            <input asp-for="IsVisible" class="form-check-input" type="checkbox" />
+            <label asp-for="IsVisible" class="form-check-label">Is Visible</label>
+            <span asp-validation-for="IsVisible" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>
