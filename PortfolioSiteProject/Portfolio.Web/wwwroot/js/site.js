@@ -47,5 +47,3 @@ cards.forEach(card => {
         card.querySelector('.glow').style.backgroundImage = '';
     });
 });
-
-

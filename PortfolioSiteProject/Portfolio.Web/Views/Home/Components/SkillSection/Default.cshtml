@@ -6,14 +6,14 @@
 @using Portfolio.Core.DTOs
 @model List<SkillDto>
 
-<div class="container mt-5 mb-5">
+<div data-aos="fade-up" class="container mt-5 mb-5">
     <div class="row">
         <div class="col text-white">
             <h2 class="text-center">My Interested and Skills</h2>
-            <div class="skill-section">
+            <div class="skill-section row">
                 @foreach (var skill in Model)
                 {
-                    <div class="skill-card">
+                    <div data-tilt data-tilt-reset="false" class="skill-card col">
                         @Html.Raw(skill.SvgData)
                         <span class="skill-text">@skill.SkillName</span>
                     </div>

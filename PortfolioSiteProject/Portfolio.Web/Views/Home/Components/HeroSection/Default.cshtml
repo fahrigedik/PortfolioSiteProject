@@ -5,14 +5,13 @@
 }
 @model HeroSectionViewModel;
 
-<div class="container py-5" data-aos="fade-up"
-     data-aos-anchor-placement="top-center">
-    <div class="row">
+<div class="container py-5">
+    <div class="row ">
         <!-- Üst Kısım -->
-        <div class="col-md-3 d-flex align-items-center justify-content-center mb-4">
-            <img src="https://i.hizliresim.com/5oro5wc.jpeg" class="rounded-circle" alt="Profile" width="150">
+        <div data-aos="fade-up" class="col-md-3 d-flex align-items-center justify-content-center mb-4">
+            <img data-tilt data-tilt-scale="1.4" data-tilt-glare data-tilt-max-glare="0.8" src="https://i.hizliresim.com/5oro5wc.jpeg" class="rounded-circle hero-section-img" alt="Profile" width="150">
         </div>
-        <div class="col-md-9 d-flex align-items-center justify-content-start mb-4">
+        <div data-aos="fade-up" class="col-md-9 d-flex align-items-center mb-4 hero-section-titles">
             <div class="text-white">
                 <h1>@Html.Raw(@Model.HeroSection.Title1)</h1>
                 <p class="lead">@Model.HeroSection.Title2</p>
@@ -21,27 +20,29 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row hero-section-information">
         <!-- Sol Menü -->
-        <div class="social-media-container col-md-3">
+        <div data-aos="fade-right" class="social-media-container col-md-3">
             <ul class="social-media-list">
-                
                 @foreach (var socialLink in @Model.SocialLinkDtos)
                 {
-                    <li class="sm-list-item">
-                        @Html.Raw(socialLink.SvgData)
-                        @socialLink.PreviewText
-                    </li>
+                    <a href="@socialLink.SocialMediaLink" class="text-white" style="text-decoration:none;" >
+                        <li class="sm-list-item">
+                            @Html.Raw(socialLink.SvgData)
+                            @socialLink.PreviewText
+                        </li>
+                    </a>
+
                 }
             </ul>
         </div>
 
         <!-- Sağ Bilgi Kısmı -->
-        <div class="col-md-9">
+        <div data-aos="fade-up" class="col-md-9">
             <div class="information p-4 rounded-3">
                 <h2>Information</h2>
                 <p>
-                   @Model.HeroSection.InformationDescription
+                    @Model.HeroSection.InformationDescription
                 </p>
             </div>
         </div>

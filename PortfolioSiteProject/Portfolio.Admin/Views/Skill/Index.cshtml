@@ -25,8 +25,8 @@
                 <th scope="row"></th>
                 <td>@skill.SkillName</td>
                 <td>@skill.ImageUrl</td>
-                <td>@skill.SvgData</td>
-                <td>@skill.SvgData</td>
+                <td>@Html.Raw(@skill.SvgData)</td>
+                <td>@skill.IsVisible</td>
                 <td><a class="btn btn-warning" asp-action="Update" asp-controller="Skill" asp-route-id="@skill.Id">Update</a></td>
                 <td><a class="btn btn-danger" asp-action="Delete" asp-controller="Skill" asp-route-id="@skill.Id">Remove</a></td>
             </tr>

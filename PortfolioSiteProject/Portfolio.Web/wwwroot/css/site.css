@@ -22,8 +22,9 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    background-image: url("../img/background-image.jpg");
+    background-image: url("../img/c0a3a3a7-5a03-41eb-b8c3-0b97c45a5e6e.jpg");
     margin-bottom: 60px;
+    font-family: "Kanit", sans-serif;
 }
 
 .hero-section {
@@ -33,11 +34,37 @@ body {
     align-items: center;
 }
 
+/* Varsayýlan stil */
 .social-media-container {
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: rgba(49, 49, 49, 0.51);
     display: inline-block;
     border-radius: 5px;
+}
+
+/* Küçük ekranlar (Mobil cihazlar: 576px ve altý) */
+@media (max-width: 765px) {
+    .social-media-container {
+        padding: 0.25rem;
+        border-radius: 3px;
+        font-size: 0.9rem;
+        margin-bottom: 1rem;/* Ýçerik için yazý boyutunu küçült */
+        text-align: center; /* Mobilde daha iyi hizalama */
+        justify-content:center;
+    }
+    .hero-section-information{
+        justify-content:center;
+    }
+    .hero-section-titles{
+        justify-content:center;
+    }
+    .navbar-list{
+        gap:2px;
+    }
+}
+.navbar-list {
+    gap: 20px;
+    font-family: "Kanit", sans-serif;
 }
 
 .social-media-list {
@@ -46,13 +73,14 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 1rem;
+    padding:0;
 }
 
 .sm-list-item {
     color: #FDF7F4;
     font-size: 1.5rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 0.5rem;
 }
@@ -76,8 +104,6 @@ body {
 .skill-section {
     background-color: rgba(49, 49, 49, 0.51);
     padding: 2rem;
-    display: grid;
-    grid-template-columns: auto auto auto;
     border-radius: 5px;
     gap: 1rem;
 }
@@ -200,6 +226,9 @@ body {
 .project-card:hover .project-card-inner {
     transform: rotateY(180deg);
 }
+.project-github-url{
+    text-decoration:none;
+}
 
 .project-card-front,
 .project-card-back {
@@ -239,4 +268,24 @@ body {
     justify-content:center;
     align-items:center;
     font-size:14px;
+}
+/* Customize the mor scrollbar */
+/* Customize the mor scrollbar for high-quality rendering */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+    background: #f2e5ff; /* Track background color */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8e44ad; /* Mor rengi scrollbarýn tutamacý */
+    border: 1px solid #f2e5ff; /* Border around the thumb */
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #732d91; /* Hover color for the scrollbar thumb */
+    }
+
+::-webkit-scrollbar-track {
+    background: #f2e5ff; /* Mor tonlarýnda track */
+    border: 1px solid #8e44ad; /* Border around the track */
 }

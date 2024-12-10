@@ -7,95 +7,35 @@
 @model List<ProjectDto>
 
 <div class="container mt-5 mb-5">
-    
+    <h2 class="text-center text-white mb-4">Projects</h2>
     <div class="project-section justify-content-center row gap-5">
-        <div class="project-card col-4 ">
-            <div class="project-card-inner">
-                <div class="project-card-front">
-                    <div class="card-front-content">
-                        <h3>Moviely APP</h3>
+        @foreach (var project in Model)
+        {
+            <div data-tilt data-aos="fade-up" class="project-card col-4 ">
+                <div class="project-card-inner">
+                    <div class="project-card-front">
+                        <div class="card-front-content">
+                            <h3 class="text-center">@project.ProjectName</h3>
+                        </div>
                     </div>
-                </div>
-                <div class="project-card-back">
-                    <div class="card-back-content">
-                        <p>
-                            <strong>Moviely APP</strong>
-                        </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-card col-4">
-            <div class="project-card-inner">
-                <div class="project-card-front">
-                    <div class="card-front-content">
-                        <h3>Moviely APP</h3>
-                    </div>
-                </div>
-                <div class="project-card-back">
-                    <div class="card-back-content">
-                        <p>
-                            <strong>Moviely APP</strong>
-                        </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
+                    <div class="project-card-back">
+                        <div class="card-back-content">
+                            <p>
+                                <strong>@project.ProjectName</strong>
+                            </p>
+                            <p>
+                                @project.ProjectDescription
+                            </p>
+                            <p>
+                                <strong>
+                                    <a href="@project.GithubUrl" class="project-github-url" target="_blank">Visit GitHub Project</a>
+                                </strong>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="project-card col-4">
-            <div class="project-card-inner">
-                <div class="project-card-front">
-                    <div class="card-front-content">
-                        <h3>Moviely APP</h3>
-                    </div>
-                </div>
-                <div class="project-card-back">
-                    <div class="card-back-content">
-                        <p>
-                            <strong>Moviely APP</strong>
-                        </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="project-card col-4">
-            <div class="project-card-inner">
-                <div class="project-card-front">
-                    <div class="card-front-content">
-                        <h3>Moviely APP</h3>
-                    </div>
-                </div>
-                <div class="project-card-back">
-                    <div class="card-back-content">
-                        <p>
-                            <strong>Moviely APP</strong>
-                        </p>
-                        <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        }
     </div>
-  
-
 </div>
