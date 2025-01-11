@@ -40,7 +40,8 @@ This repository contains the source code for my personal portfolio website, incl
 
 ## Screenshots## Future Enhancements
 
-* **(List any planned features - e.g., blog section, contact form, social media integration):**  To further improve the website's functionality.
+[Home Page - Portfolio.Web.webm](https://github.com/user-attachments/assets/c5dcdd98-b933-4ef4-95d2-5e112d3fc560)
+
 
 ## Contributing
 
