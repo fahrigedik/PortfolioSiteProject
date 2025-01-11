@@ -42,6 +42,8 @@ This repository contains the source code for my personal portfolio website, incl
 
 [Home Page - Portfolio.Web.webm](https://github.com/user-attachments/assets/c5dcdd98-b933-4ef4-95d2-5e112d3fc560)
 
+[- Portfolio.Admin.webm](https://github.com/user-attachments/assets/bb5a2cf3-e1b4-4488-8e86-d3d8eba9bc52)
+
 
 ## Contributing
 
