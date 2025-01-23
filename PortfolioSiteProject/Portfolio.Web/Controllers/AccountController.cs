@@ -38,5 +38,11 @@ namespace Portfolio.Web.Controllers
 
             return BadRequest("Invalid login attempt");
         }
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return RedirectToAction("Index", "Home");
+        }
     }
 }

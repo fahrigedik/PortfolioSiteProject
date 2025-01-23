@@ -3,11 +3,82 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>Fahri Gedik | Admin </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/loginLayout.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Portfolio.Web.styles.css" asp-append-version="true" />
+
 </head>
-<body>
-    <div>
+<body class="d-flex justify-content-start">
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px; height: 100vh;" bis_skin_checked="1">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Fahri Gedik</span>
+        </a>
+        <hr>
+        <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                    Hero Section
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                    Experience
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                    Project
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                    Skill
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                    Social Link
+                </a>
+            </li>
+            <li>
+                <a class="nav-link text-white">
+                    <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                    User Info
+                </a>
+            </li>
+        </ul>
+        <hr>
+        <div class="dropdown" bis_skin_checked="1">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <form asp-action="Logout" asp-controller="Account" method="post">
+                    <button type="submit" class="btn btn-danger">Log Out</button>
+                </form>
+            }
+            else
+            {
+                <h4>Not Auth</h4>
+                <a class="btn btn-outline-danger" asp-action="Login" asp-controller="Account">Log out</a>
+            }
+        </div>
+    </div>
+    <div class="flex-grow-1 p-3">
         @RenderBody()
     </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
