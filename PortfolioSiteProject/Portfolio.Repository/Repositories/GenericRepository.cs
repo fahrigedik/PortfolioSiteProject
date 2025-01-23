@@ -43,5 +43,11 @@ public class GenericRepository<T>(AppDbContext context) : IGenericRepository<T> 
     {
         _dbSet.Remove(entity);
     }
+
+    public async Task<byte[]> GetImageAsync(Guid id)
+    {
+        var entity = await _dbSet.FindAsync(id);
+        return entity.Image;
+    }
 }
 

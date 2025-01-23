@@ -5,4 +5,5 @@ public class BaseEntity
 {
     public Guid Id { get; set; }
     public bool IsVisible { get; set; }
+    public byte[]? Image { get; set; }
 }
