@@ -5,7 +5,7 @@ using Portfolio.Service.Services;
 
 namespace Portfolio.Web.Controllers
 {
-    public class ProjectController : Controller
+    public class ProjectController : BaseAdminController
     {
         private readonly IProjectService projectService;
         public ProjectController(IProjectService projectService)

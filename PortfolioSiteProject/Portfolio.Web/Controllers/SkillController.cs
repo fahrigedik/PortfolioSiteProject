@@ -5,7 +5,7 @@ using Portfolio.Service.Services;
 
 namespace Portfolio.Web.Controllers
 {
-    public class SkillController : Controller
+    public class SkillController : BaseAdminController
     {
         private readonly ISkillService skillService;
         public SkillController(ISkillService _skillService)

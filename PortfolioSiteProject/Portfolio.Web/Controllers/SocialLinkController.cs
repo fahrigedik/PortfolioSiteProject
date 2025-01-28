@@ -5,7 +5,7 @@ using Portfolio.Service.Services;
 
 namespace Portfolio.Web.Controllers
 {
-    public class SocialLinkController : Controller
+    public class SocialLinkController : BaseAdminController
     {
 
         private readonly ISocialLinkService socialLinkService;

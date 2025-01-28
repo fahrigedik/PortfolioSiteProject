@@ -6,7 +6,7 @@ using Portfolio.Entity.Entities;
 
 namespace Portfolio.Web.Controllers
 {
-    public class UserInfoController : Controller
+    public class UserInfoController : BaseAdminController
     {
         private readonly IUserInfoService _userInfoService;
         public UserInfoController(IUserInfoService userInfoService)

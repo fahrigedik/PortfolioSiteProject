@@ -5,7 +5,7 @@ using Portfolio.Service.Services;
 
 namespace Portfolio.Web.Controllers
 {
-    public class HeroSectionController : Controller
+    public class HeroSectionController : BaseAdminController
     {
         private readonly IHeroSectionService _heroSectionService;
         public HeroSectionController(IHeroSectionService heroSectionService)
