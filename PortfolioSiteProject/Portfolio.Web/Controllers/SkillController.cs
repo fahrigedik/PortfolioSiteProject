@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Portfolio.Core.Helpers;
 using Portfolio.Core.Interfaces.Services;
 using Portfolio.Entity.Entities;
 using Portfolio.Service.Services;
@@ -26,9 +27,13 @@ namespace Portfolio.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Update(Skill requestModel)
+        public async Task<IActionResult> Update(Skill requestModel, IFormFile ImageFile)
         {
-            skillService.UpdateAsync(requestModel);
+            if(ImageFile != null)
+            {
+                requestModel.Image = ImageHelper.ConvertToByteArray(ImageFile);
+            }
+            await skillService.UpdateAsync(requestModel);
             return RedirectToAction("Index");
         }
 
@@ -46,8 +51,12 @@ namespace Portfolio.Web.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Skill requestModel)
+        public async Task<IActionResult> Create(Skill requestModel, IFormFile ImageFile)
         {
+            if (ImageFile != null)
+            {
+                requestModel.Image = ImageHelper.ConvertToByteArray(ImageFile);
+            }
             await skillService.CreateAsync(requestModel);
             return RedirectToAction("Index");
         }

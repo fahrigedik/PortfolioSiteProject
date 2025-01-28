@@ -13,10 +13,21 @@
             <div class="skill-section row">
                 @foreach (var skill in Model)
                 {
-                    <div data-tilt data-tilt-reset="false" class="skill-card col">
-                        @Html.Raw(skill.SvgData)
-                        <span class="skill-text">@skill.SkillName</span>
-                    </div>
+                    if (skill.Image != null && skill.Image.Length > 0)
+                    {
+                        var base64Image = Convert.ToBase64String(skill.Image);
+                        <div data-tilt data-tilt-reset="false" class="skill-card col">
+                            <img src="data:image/png;base64,@base64Image" width="50" />
+                            <span class="skill-text">@skill.SkillName</span>
+                        </div>
+                    }
+                    else
+                    {
+                        <div data-tilt data-tilt-reset="false" class="skill-card col">
+                            @Html.Raw(skill.SvgData)
+                            <span class="skill-text">@skill.SkillName</span>
+                        </div>
+                    }
                 }
             </div>
         </div>

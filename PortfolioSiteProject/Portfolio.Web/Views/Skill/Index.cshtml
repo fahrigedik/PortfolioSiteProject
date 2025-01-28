@@ -15,6 +15,7 @@
             <th scope="col">Skill Name</th>
             <th scope="col">Image Url</th>
             <th scope="col">Svg Data</th>
+            <th scope="col">Image</th>
             <th scope="col">Is Visible</th>
             <th scope="col">Actions</th>
         </tr>
@@ -26,7 +27,27 @@
                 <th scope="row"></th>
                 <td>@skill.SkillName</td>
                 <td>@skill.ImageUrl</td>
-                <td>@Html.Raw(@skill.SvgData)</td>
+                <td>
+                    @if (skill.SvgData != null && skill.SvgData.Length > 0)
+                    {
+                        @Html.Raw(@skill.SvgData)
+                    }
+                    else
+                    {
+                        <span>No SVG Data</span>
+                    }
+                </td>
+                <td>
+                    @if (skill.Image != null && skill.Image.Length > 0)
+                    {
+                        var base64Image = Convert.ToBase64String(skill.Image);
+                        <img src="data:image/png;base64,@base64Image" width="50" />
+                    }
+                    else
+                    {
+                        <span>No image</span>
+                    }
+                </td>
                 <td>@skill.IsVisible</td>
                 <td>
                     <a class="btn btn-warning" asp-action="Update" asp-controller="Skill" asp-route-id="@skill.Id">Update</a>
