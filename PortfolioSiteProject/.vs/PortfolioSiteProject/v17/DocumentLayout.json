@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\home\\components\\userinfo\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\home\\components\\userinfo\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\viewcomponents\\userinfoviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\viewcomponents\\userinfoviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\viewcomponents\\experiencesectionviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\viewcomponents\\experiencesectionviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\userinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\userinfo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,66 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Home\\Components\\UserInfo\\Default.cshtml",
-              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\Home\\Components\\UserInfo\\Default.cshtml",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Home\\Components\\UserInfo\\Default.cshtml",
-              "RelativeToolTip": "Portfolio.Web\\Views\\Home\\Components\\UserInfo\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T10:03:30.939Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserInfoViewComponent.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\ViewComponents\\UserInfoViewComponent.cs",
-              "RelativeDocumentMoniker": "Portfolio.Web\\ViewComponents\\UserInfoViewComponent.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\ViewComponents\\UserInfoViewComponent.cs",
-              "RelativeToolTip": "Portfolio.Web\\ViewComponents\\UserInfoViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABbAAAAAAAAAA==",
+              "Title": "SkillController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\SkillController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\SkillController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\SkillController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\SkillController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T10:03:20.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ExperienceSectionViewComponent.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\ViewComponents\\ExperienceSectionViewComponent.cs",
-              "RelativeDocumentMoniker": "Portfolio.Web\\ViewComponents\\ExperienceSectionViewComponent.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\ViewComponents\\ExperienceSectionViewComponent.cs",
-              "RelativeToolTip": "Portfolio.Web\\ViewComponents\\ExperienceSectionViewComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T10:03:19.465Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\UserInfo\\Index.cshtml",
-              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\UserInfo\\Index.cshtml",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\UserInfo\\Index.cshtml",
-              "RelativeToolTip": "Portfolio.Web\\Views\\UserInfo\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-28T09:50:15.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserInfoController.cs",
-              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\UserInfoController.cs",
-              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\UserInfoController.cs",
-              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\UserInfoController.cs",
-              "RelativeToolTip": "Portfolio.Web\\Controllers\\UserInfoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T09:50:09.629Z",
+              "WhenOpened": "2025-01-28T10:30:14.617Z",
               "EditorCaption": ""
             }
           ]

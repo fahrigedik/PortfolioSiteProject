@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_AdminLayout";
+}
+@model List<Portfolio.Entity.Entities.SocialLink>
+
+<a class="btn text-end btn-outline-info m-3" asp-action="Create" asp-controller="SocialLink">Add Project</a>
+<table class="table table-striped table-dark">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Preview Text</th>
+        <th scope="col">Social Media Link</th>
+        <th scope="col">Image</th>
+        <th scope="col">Svg Data</th>
+        <th scope="col">Is Visible</th>
+        <th scope="col">Update</th>
+        <th scope="col">Remove</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var socialLink in Model)
+    {
+        <tr>
+            <th scope="row"></th>
+            <td>@socialLink.PreviewText</td>
+            <td>@socialLink.SocialMediaLink</td>
+            <td><img src="@socialLink.ImageUrl" style="width:100px;" /></td>
+            <td>@Html.Raw(socialLink.SvgData)</td>
+            <td>@socialLink.IsVisible</td>
+            <td><a class="btn btn-warning" asp-action="Update" asp-controller="SocialLink" asp-route-id="@socialLink.Id">Update</a></td>
+            <td><a class="btn btn-danger" asp-action="Delete" asp-controller="SocialLink" asp-route-id="@socialLink.Id">Remove</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+
