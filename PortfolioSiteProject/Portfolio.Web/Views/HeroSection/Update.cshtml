@@ -47,6 +47,11 @@
             <textarea asp-for="SvgData" class="form-control" rows="3"></textarea>
             <span asp-validation-for="SvgData" class="text-danger"></span>
         </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Upload Image</label>
+            <input type="file" name="ImageFile" class="form-control" />
+        </div>
 
         <div class="form-check mb-3">
             <input asp-for="IsVisible" class="form-check-input" type="checkbox" />

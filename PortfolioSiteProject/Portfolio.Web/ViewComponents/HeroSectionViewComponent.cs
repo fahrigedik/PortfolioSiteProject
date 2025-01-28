@@ -14,7 +14,7 @@ public class HeroSectionViewComponent(IHeroSectionService heroSectionService, IS
 
         var heroSectionViewModel = new HeroSectionViewModel
         {
-            HeroSection = heroSection.First(),
+            HeroSection = heroSection.FirstOrDefault(),
             SocialLinkDtos = socialLinks
         };
 

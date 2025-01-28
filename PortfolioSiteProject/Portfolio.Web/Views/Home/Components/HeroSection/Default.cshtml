@@ -9,7 +9,18 @@
     <div class="row ">
         <!-- Üst Kısım -->
         <div data-aos="fade-up" class="col-md-3 d-flex align-items-center justify-content-center mb-4">
-            <img data-tilt data-tilt-scale="1.4" data-tilt-glare data-tilt-max-glare="0.8" src="https://i.hizliresim.com/5oro5wc.jpeg" class="rounded-circle hero-section-img" alt="Profile" width="150">
+
+
+            @if (Model.HeroSection.Image != null && Model.HeroSection.Image.Length > 0)
+            {
+                var base64Image = Convert.ToBase64String(Model.HeroSection.Image);
+                <img data-tilt data-tilt-scale="1.4" data-tilt-glare data-tilt-max-glare="0.8" src="data:image/png;base64,@base64Image" class="rounded-circle hero-section-img" alt="Profile" width="150">
+            }
+            else
+            {
+                <img data-tilt data-tilt-scale="1.4" data-tilt-glare data-tilt-max-glare="0.8" src="https://i.hizliresim.com/5oro5wc.jpeg" class="rounded-circle hero-section-img" alt="Profile" width="150">
+            }
+
         </div>
         <div data-aos="fade-up" class="col-md-9 d-flex align-items-center mb-4 hero-section-titles">
             <div class="text-white">
@@ -26,11 +37,11 @@
             <ul class="social-media-list">
                 @foreach (var socialLink in @Model.SocialLinkDtos)
                 {
-                    <a href="@socialLink.SocialMediaLink" class="text-white" style="text-decoration:none;" >
-                        <li class="sm-list-item">
+                    <a href="@socialLink.SocialMediaLink" class="text-white" style="text-decoration:none;">
+                    <li class="sm-list-item">
                             @Html.Raw(socialLink.SvgData)
                             @socialLink.PreviewText
-                        </li>
+                    </li>
                     </a>
 
                 }
