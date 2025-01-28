@@ -16,6 +16,8 @@
             <th scope="col">Image Url</th>
             <th scope="col">Svg Data</th>
             <th scope="col">Is Visible</th>
+            <th scope="col">Actions</th>
+
         </tr>
     </thead>
     <tbody>
@@ -27,8 +29,10 @@
                 <td>@skill.ImageUrl</td>
                 <td>@Html.Raw(@skill.SvgData)</td>
                 <td>@skill.IsVisible</td>
-                <td><a class="btn btn-warning" asp-action="Update" asp-controller="Skill" asp-route-id="@skill.Id">Update</a></td>
-                <td><a class="btn btn-danger" asp-action="Delete" asp-controller="Skill" asp-route-id="@skill.Id">Remove</a></td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Update" asp-controller="Skill" asp-route-id="@skill.Id">Update</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-controller="Skill" asp-route-id="@skill.Id">Remove</a>
+                </td>
             </tr>
         }
     </tbody>

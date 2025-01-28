@@ -1,7 +1,84 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\skill\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\skill\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\skill\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\skill\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\skill\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\skill\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\skill\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\skill\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.admin\\views\\skill\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{474270A0-D1D9-45BB-B3D9-B2614FB62E16}|Portfolio.Admin\\Portfolio.Admin.csproj|solutionrelative:portfolio.admin\\views\\skill\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\partial\\_adminsidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\partial\\_adminsidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\experiencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\baseadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\baseadmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\sociallinkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\sociallinkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\userinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|c:\\fahrigedikprivate\\portfoliositeproject\\portfoliositeproject\\portfolio.web\\controllers\\herosectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20BE726B-F62F-4769-A954-241AF6AD5499}|Portfolio.Web\\Portfolio.Web.csproj|solutionrelative:portfolio.web\\controllers\\herosectioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 2134,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +95,253 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\Skill\\Update.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\Skill\\Update.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\Skill\\Update.cshtml",
+              "RelativeToolTip": "Portfolio.Admin\\Views\\Skill\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:35:21.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Skill\\Update.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\Skill\\Update.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Skill\\Update.cshtml",
+              "RelativeToolTip": "Portfolio.Web\\Views\\Skill\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:35:18.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Skill\\Create.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\Skill\\Create.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Skill\\Create.cshtml",
+              "RelativeToolTip": "Portfolio.Web\\Views\\Skill\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:35:06.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\Skill\\Create.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Admin\\Views\\Skill\\Create.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Admin\\Views\\Skill\\Create.cshtml",
+              "RelativeToolTip": "Portfolio.Admin\\Views\\Skill\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:33:32.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Skill\\Index.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\Skill\\Index.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Skill\\Index.cshtml",
+              "RelativeToolTip": "Portfolio.Web\\Views\\Skill\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:33:09.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_AdminSidebarPartial.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Partial\\_AdminSidebarPartial.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\Partial\\_AdminSidebarPartial.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Partial\\_AdminSidebarPartial.cshtml",
+              "RelativeToolTip": "Portfolio.Web\\Views\\Partial\\_AdminSidebarPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:28:24.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Portfolio.Web\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:26:40.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Portfolio.Web\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:26:16.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:58.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:52.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseAdminController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\BaseAdminController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\BaseAdminController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\BaseAdminController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\BaseAdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:48.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SocialLinkController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\SocialLinkController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\SocialLinkController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\SocialLinkController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\SocialLinkController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:40.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserInfoController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\UserInfoController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\UserInfoController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\UserInfoController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\UserInfoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:35.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SkillController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\SkillController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\SkillController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\SkillController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\SkillController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:30.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "Portfolio.Web\\Views\\Shared\\_MainLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-28T11:28:56.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\ProjectController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:24.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T09:59:55.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HeroSectionController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\HeroSectionController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\HeroSectionController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\HeroSectionController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\HeroSectionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:17.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExperienceController.cs",
+              "DocumentMoniker": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\ExperienceController.cs",
+              "RelativeDocumentMoniker": "Portfolio.Web\\Controllers\\ExperienceController.cs",
+              "ToolTip": "C:\\FahriGedikPrivate\\PortfolioSiteProject\\PortfolioSiteProject\\Portfolio.Web\\Controllers\\ExperienceController.cs",
+              "RelativeToolTip": "Portfolio.Web\\Controllers\\ExperienceController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-28T11:18:13.74Z",
+              "EditorCaption": ""
             }
           ]
         },

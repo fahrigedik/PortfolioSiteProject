@@ -4,39 +4,27 @@
 @{
     Layout = "_AdminLayout";
 }
-@model Portfolio.Entity.Entities.Project
+@model Portfolio.Entity.Entities.Skill
 
 <div class="container mt-5">
-    <h2>Create New Project</h2>
-    <form asp-action="Create" asp-controller="Project" method="post">
+    <h2>Create New Skill</h2>
+    <form asp-action="Create" asp-controller="Skill" method="post">
         <div class="mb-3">
-            <label asp-for="ProjectName" class="form-label">Project Name</label>
-            <input asp-for="ProjectName" class="form-control" />
-            <span asp-validation-for="ProjectName" class="text-danger"></span>
-        </div>
-
-        <div class="mb-3">
-            <label asp-for="ProjectDescription" class="form-label">Project Description</label>
-            <textarea asp-for="ProjectDescription" class="form-control" rows="3"></textarea>
-            <span asp-validation-for="ProjectDescription" class="text-danger"></span>
-        </div>
-
-        <div class="mb-3">
-            <label asp-for="GithubUrl" class="form-label">GitHub URL</label>
-            <input asp-for="GithubUrl" class="form-control" />
-            <span asp-validation-for="GithubUrl" class="text-danger"></span>
-        </div>
-
-        <div class="mb-3">
-            <label asp-for="PreviewUrl" class="form-label">Preview URL</label>
-            <input asp-for="PreviewUrl" class="form-control" />
-            <span asp-validation-for="PreviewUrl" class="text-danger"></span>
+            <label asp-for="SkillName" class="form-label">Skill Name</label>
+            <input asp-for="SkillName" class="form-control" />
+            <span asp-validation-for="SkillName" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
             <label asp-for="ImageUrl" class="form-label">Image URL</label>
             <input asp-for="ImageUrl" class="form-control" />
             <span asp-validation-for="ImageUrl" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="SvgData" class="form-label">SVG Data</label>
+            <textarea asp-for="SvgData" class="form-control" rows="3"></textarea>
+            <span asp-validation-for="SvgData" class="text-danger"></span>
         </div>
 
         <div class="form-check mb-3">
