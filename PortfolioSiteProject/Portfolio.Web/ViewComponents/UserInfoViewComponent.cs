@@ -7,7 +7,7 @@ public class UserInfoViewComponent(IUserInfoService userInfoService) : ViewCompo
 {
     public async Task<IViewComponentResult> InvokeAsync()
     {
-        var userInfoServices = (await userInfoService.GetAllVisibleAsync()).First();
+        var userInfoServices = (await userInfoService.GetAllVisibleAsync()).FirstOrDefault();
         return View(userInfoServices);
     }
 }
